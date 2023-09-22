@@ -5,4 +5,4 @@ Recibe una serie de parámetros del archivo intents.json del que recibe los dist
 Para probarlo hacer lo siguiente:
 1. Modificar los patrones y las respuestas en el archivo intents.json
 2. Entrenar el modelo en el archivo training.py, modificando los parámetros adecuados en el modelo y el optimizador
-3. Ejecutar el archivo chatbot.py y a disfrutar!
+3. Ejecutar el archivo chatbot.py
