@@ -1,0 +1,34 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": ["hola", "qué tal", "cómo estás", "saludos"],
+            "responses": ["¡Hola!", "Buenos días!", "¿Cómo estás?"]
+        },
+        {
+            "tag": "despedida",
+            "patterns": ["adiós", "hasta luego", "nos vemos"],
+            "responses": ["Hasta luego", "Adiós, que tengas un buen día", "Nos vemos pronto"]
+        },
+        {
+            "tag": "edad",
+            "patterns": ["cuántos años tienes", "edad", "en qué año naciste"],
+            "responses": ["No tengo una edad, soy un programa de chat", "No puedo envejecer, soy una inteligencia artificial"]
+        },
+        {
+            "tag": "clima",
+            "patterns": ["¿Cómo está el clima hoy?", "Predicción del tiempo", "clima"],
+            "responses": ["No puedo proporcionar información sobre el clima", "Te recomiendo consultar un servicio meteorológico en línea"]
+        },
+        {
+            "tag": "chiste",
+            "patterns": ["cuéntame un chiste", "chiste"],
+            "responses": ["¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter", "¿Cómo se dice pañuelo en japonés? Saka-moko"]
+        },
+        {
+            "tag": "ayuda",
+            "patterns": ["necesito ayuda", "ayúdame", "estoy perdido"],
+            "responses": ["¡Claro! Estoy aquí para ayudarte. ¿En qué puedo asistirte?", "¿En qué puedo ayudarte hoy?"]
+        }
+    ]
+}
